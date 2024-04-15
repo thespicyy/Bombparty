@@ -1,0 +1,2 @@
+# Bombparty
+Python bot bombparty
