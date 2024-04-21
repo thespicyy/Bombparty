@@ -2,6 +2,7 @@ import time
 import pyperclip
 import copy
 import pyautogui
+import random
 from PIL import ImageGrab
 from load_dictionary import dico_cleaned_fr, dico_cleaned_en
 from calibration_data import syl_x, syl_y, ws_x, ws_y, pixel_init, language
@@ -165,7 +166,15 @@ def find(dico):
     pyautogui.keyDown('alt')
     pyautogui.press('tab')
     pyautogui.keyUp('alt')
-    pyautogui.hotkey('ctrl', 'v')
+    for letter in chosen_word:
+        pyperclip.copy(letter)
+        time.sleep(random.uniform(0.01, 0.02))
+        pyautogui.hotkey('ctrl', 'v')
+        if random.random() < 0.03:  # 5% de probabilité d'erreur
+            pyautogui.press('backspace')  # Efface la lettre incorrecte
+            time.sleep(random.uniform(0.2, 0.3))
+            pyautogui.hotkey('ctrl', 'v')
+    # pyautogui.hotkey('ctrl', 'v')
     pyautogui.press('enter')
     
     time.sleep(0.1)
