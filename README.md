@@ -1,4 +1,4 @@
-# Bombparty
+# Bombparty (copy paste patched, doesn't work anymore)
 Python bot to play bombparty
 
 ## How to use it
