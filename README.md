@@ -24,5 +24,5 @@ My script is far from being perfect. Therefore, if you have any recommendations 
 # Solutions to the patch
 Simply create a function to input the keys rather than copying them to the clipboard
 
-Thank you,
+Thank you,<br>
 Rémy
