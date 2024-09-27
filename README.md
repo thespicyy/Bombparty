@@ -21,5 +21,8 @@ I did not create this program to cheat; I did it because I enjoy coding. I recom
 # Support
 My script is far from being perfect. Therefore, if you have any recommendations to improve it, do not hesitate. 
 
+# Solutions to the patch
+Simply create a function to input the keys rather than copying them to the clipboard
+
 Thank you,
 The Spicy
