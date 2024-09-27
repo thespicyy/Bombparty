@@ -25,4 +25,4 @@ My script is far from being perfect. Therefore, if you have any recommendations 
 Simply create a function to input the keys rather than copying them to the clipboard
 
 Thank you,
-The Spicy
+Rémy
